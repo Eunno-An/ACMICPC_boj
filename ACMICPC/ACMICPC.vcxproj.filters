@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\브론즈">
+      <UniqueIdentifier>{64758d61-aed9-43b8-bd4a-18aa1d57adf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\실버">
+      <UniqueIdentifier>{d93f5048-d1b5-4deb-babe-d6a3fb4fc3b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\완전탐색">
+      <UniqueIdentifier>{69ddd203-6c41-4302-8873-619d0a36291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DP">
+      <UniqueIdentifier>{a667845b-172d-45a9-8ee9-1603638d6bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\자료구조">
+      <UniqueIdentifier>{dc4dcede-cd99-42f8-9d14-d0f19cf5b50a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\재귀">
+      <UniqueIdentifier>{d1184b41-8a24-4c31-a5f9-dcd71b917049}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\세그먼트트리">
+      <UniqueIdentifier>{9fb9441c-0664-4cb9-966f-db1136acbaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\레이지 프로퍼게이션">
+      <UniqueIdentifier>{e9010e0d-a7ee-44e0-bd1f-0fa19a7dfd86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\스위핑">
+      <UniqueIdentifier>{724ccf7b-6a1c-4262-a2d4-95cc04344849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IUPC">
+      <UniqueIdentifier>{562f7841-2737-475f-b80e-c6d6c264e54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\그리디">
+      <UniqueIdentifier>{7e7deacb-3c96-4f97-99b2-74f45d4291a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\분할정복">
+      <UniqueIdentifier>{b5cd9efb-8905-4a12-a2be-fbce31026330}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="피보나치수2747.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="짝수를찾아라3058.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열반복2675.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="가장많은글자1371.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="검문2981.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="수 정렬하기2750.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="부분수열의 합1182.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="사탕게임3085.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치수5_10870.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="유레카이론10448.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="퇴사14501.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자 끼워넣기14888.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="과소비알림서비스.cpp">
+      <Filter>소스 파일\실버</Filter>
+    </ClCompile>
+    <ClCompile Include="찍기2966.cpp">
+      <Filter>소스 파일\브론즈</Filter>
+    </ClCompile>
+    <ClCompile Include="아이러브크로아티아9517(브).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="킹1063%28실%29.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="체스판다시칠하기1015(실).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="고기잡이7573(실).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="리모컨1107(골).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%29프로도의 선물 포장10881%28골%29.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="떨어지는 개미%28골%29.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="로또(실).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="카드 구매하기11052(실).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="벼락치기14728(골).cpp">
+      <Filter>소스 파일\DP</Filter>
+    </ClCompile>
+    <ClCompile Include="균형잡힌 세상(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="요세푸스 문제 0(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="프린터큐(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="덱(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="회전하는 큐%28실%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="AC%28실%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="암기왕(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="나는야 포켓몬 마스터 이다솜(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="후위 표기식(골).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="후위 표기식2(실).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%29문자열 폭발%28골%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="오큰수(골).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="오등큰수%28골%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="오아시스 재결합(골).cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%29뱀%28골%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="생태학%28골%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기10(실).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%29히스토그램에서 가장 큰 직사각형%28플%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="검열%28플%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값찾기%28플%29.cpp">
+      <Filter>소스 파일\자료구조</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기11%28골%29.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="별 찍기 19.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(1).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(3).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 N(4).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(5).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M%286%29.cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과M(7).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(8).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="N과 M(9).cpp">
+      <Filter>소스 파일\재귀</Filter>
+    </ClCompile>
+    <ClCompile Include="구간합구하기2042(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="가장긴증가하는부분수열2_12015(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="구간 곱 구하기_11505(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="최솟값과최대값_2357(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="가계부12837(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="sdf.cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="구간합구하기2_10999(플).cpp">
+      <Filter>소스 파일\레이지 프로퍼게이션</Filter>
+    </ClCompile>
+    <ClCompile Include="선 긋기_2170(골).cpp">
+      <Filter>소스 파일\스위핑</Filter>
+    </ClCompile>
+    <ClCompile Include="북서풍_5419(플).cpp">
+      <Filter>소스 파일\스위핑</Filter>
+    </ClCompile>
+    <ClCompile Include="화성지도_3392(플).cpp">
+      <Filter>소스 파일\스위핑</Filter>
+    </ClCompile>
+    <ClCompile Include="커피숍2_1275(골).cpp">
+      <Filter>소스 파일\세그먼트트리</Filter>
+    </ClCompile>
+    <ClCompile Include="A.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="D.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="G.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="L.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="H.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="K.cpp">
+      <Filter>소스 파일\IUPC</Filter>
+    </ClCompile>
+    <ClCompile Include="벡터 매칭_골_1007.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="기본 템플릿.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="램프_1034(골).cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="가르침1062_골%28못품%29.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="감소하는 수_1038_골.cpp">
+      <Filter>소스 파일\완전탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%2936진수_1036%28골%29.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="%28못품%29방번호_1082_골.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="도로_1054(골).cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="울타리_1047_골.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="프렉탈 평면_1030_골.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="칸토어집합_4779_실.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="종이접기_1802_실.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="투에-모스 문자열_18222(실).cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="17829_풀링_실.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="Moo게임_5904_실.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="박스채우기_1493_골.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="같은 수로 만들기_2374_골.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="수열_1588_골.cpp">
+      <Filter>소스 파일\분할정복</Filter>
+    </ClCompile>
+    <ClCompile Include="뒤집기_1439_실.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="숫자 더하기_9440_브.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+    <ClCompile Include="피보나치_9009_실.cpp">
+      <Filter>소스 파일\그리디</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
