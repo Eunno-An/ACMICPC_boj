@@ -37,23 +37,60 @@ using namespace std;
 
 typedef long long int ll;
 typedef pair<int, int> pii;
-
-
+int N;
+int count_twchin = 0;
+int dp[2][91] = {};
+ll fibo[91] = {};
 // 테스트 케이스 초기화 시
 void init()
 {
 
 }
-
+ll fibonacci(int number) {
+	if (number == 1) {
+		return fibo[number] = 1;
+	}
+	if (number == 2) {
+		return fibo[number] = 1;
+	}
+	if (fibo[number]) {
+		return fibo[number];
+	}
+	return fibo[number] = fibonacci(number - 1) + fibonacci(number - 2);
+}
 int main()
 {
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
-
+	int arr[91] = {};
 	init();
+	cin >> N;
+	if (N == 1 || N == 2) {
+		cout << 1 << '\n';
+		return 0;
+	}
+	cout << fibonacci(N) << '\n';
+	//규칙이 그냥 피보나치임.
 
 
+
+	//dp배열의 의미
+	//dp[0][i]는 i번째 자릿수가 0이냐 1이냐를 의미
+	//dp[1][1] = 1;
+	//dp[0][2] = 1;
+	//for (int i = 3; i <= N; i++) {//dp[0][3]과 dp[1][3]의 케이스가 생김. dp [0][3] = do[0][2], dp[1][3] = dp[0][2]+1
+	//	if (dp[0][i - 1] != 0) {
+	//		dp[0][i] = dp[0][i-1];
+	//		dp[1][i] = dp[0][i-1];
+	//	}
+	//	if (dp[1][i - 1] != 0) { // i-1이 1 일 때
+	//		dp[0][i] += 1;
+	//	}
+	//}
+	//cout << dp[0][N] + dp[1][N] << '\n';
+	//dp[0]: 0 1 1 1
+	//dp[1]: 1 0 1 1
 
 	return 0;
 }
