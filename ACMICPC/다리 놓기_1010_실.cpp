@@ -38,61 +38,44 @@ using namespace std;
 typedef long long int ll;
 typedef pair<int, int> pii;
 
-vector<ll> vec_fibo;
 int T;
-ll arr[50] = {};
+ll arr[35][35];
 // 테스트 케이스 초기화 시
 void init()
 {
-	vec_fibo.clear();
+	for (int i = 1; i <= 30; i++) {
+		for (int j = 1; j <= 30; j++) {
+			arr[i][j] = 0;
+		}
+	}
+	arr[1][1] = 1;
 }
-void push_fibo(int value, int idx) {
-	if (value < arr[idx]) {
-		return;
+ll combi(int r, int c) {
+	if (c == 1) {
+		return arr[r][1] = 1;
 	}
-	if (value == 0) {
-		return;
+	if (r == c) {
+		return arr[r][c] = 1;
 	}
-	
-	vec_fibo.push_back(arr[idx]);
-	for (int i = idx-1; i >= 1; i++) {
-		push_fibo(value - arr[i], i);
+	if (arr[r][c]) {
+		return arr[r][c];
 	}
+	return arr[r][c] = combi(r - 1, c - 1) + combi(r - 1, c);
 }
-ll fibonacci(int idx) {
-	if (idx <= 2) {
-		return arr[idx] = 1;
-	}
-	if (arr[idx]) {
-		return arr[idx];
-	}
-	return arr[idx] = fibonacci(idx - 1) + fibonacci(idx - 2);
-}
-
 int main()
 {
-	ios_base::sync_with_stdio(false);	
+	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
 	cin >> T;
-	fibonacci(48);
 	while (T--) {
-		int n;
-		cin >> n;
-		int start_idx = 0;
-		for (int i = 1; i < 48; i++) {
-			if (arr[i] > n) {
-				start_idx = i;
-				break;
-			}
+		int N, M;
+		cin >> N >> M;
+		if (N == 1) {
+			cout << M << '\n';
+			continue;
 		}
-		push_fibo(n, start_idx-1);
-		sort(vec_fibo.begin(), vec_fibo.end());
-		for (int i = 0; i < vec_fibo.size(); i++) {
-			cout << vec_fibo[i] << ' ';
-		}
-		cout << '\n';
-		init();
+		cout << combi(M+1, N+1) << '\n';
 	}
 
 
