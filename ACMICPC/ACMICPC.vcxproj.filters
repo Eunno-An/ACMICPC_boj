@@ -357,5 +357,8 @@
     <ClCompile Include="포도주 시식_2156_실.cpp">
       <Filter>소스 파일\DP1-2</Filter>
     </ClCompile>
+    <ClCompile Include="연속합_1912_실.cpp">
+      <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
