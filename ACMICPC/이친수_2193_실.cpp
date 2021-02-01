@@ -1,4 +1,3 @@
-
 #define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
@@ -71,9 +70,6 @@ int main()
 		return 0;
 	}
 	cout << fibonacci(N) << '\n';
-	//규칙이 그냥 피보나치임.
-
-
 
 	//dp배열의 의미
 	//dp[0][i]는 i번째 자릿수가 0이냐 1이냐를 의미
