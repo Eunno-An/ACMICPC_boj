@@ -360,5 +360,8 @@
     <ClCompile Include="연속합_1912_실.cpp">
       <Filter>소스 파일\DP1-2</Filter>
     </ClCompile>
+    <ClCompile Include="가장 긴 증가하는 부분 수열_11053_실.cpp">
+      <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
