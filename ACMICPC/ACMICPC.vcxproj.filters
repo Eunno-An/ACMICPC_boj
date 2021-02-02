@@ -369,5 +369,8 @@
     <ClCompile Include="스티커_9465_실.cpp">
       <Filter>소스 파일\DP1-2</Filter>
     </ClCompile>
+    <ClCompile Include="오르막 수_11057_실.cpp">
+      <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
