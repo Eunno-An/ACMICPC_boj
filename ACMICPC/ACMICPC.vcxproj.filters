@@ -381,5 +381,11 @@
     <ClCompile Include="제곱수의 합_1699_실.cpp">
       <Filter>소스 파일\DP1-2</Filter>
     </ClCompile>
+    <ClCompile Include="가장큰증가부분수열_11055_실.cpp">
+      <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
+    <ClCompile Include="11054_가장 긴 바이토닉 부분 수열_골.cpp">
+      <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
