@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\DP1-2">
       <UniqueIdentifier>{18e12cc0-bd4d-46c7-a8b1-722fd94f030d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\이분탐색">
+      <UniqueIdentifier>{d24e74f5-179a-42a5-95b7-72a44644183b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="피보나치수2747.cpp">
@@ -386,6 +389,9 @@
     </ClCompile>
     <ClCompile Include="11054_가장 긴 바이토닉 부분 수열_골.cpp">
       <Filter>소스 파일\DP1-2</Filter>
+    </ClCompile>
+    <ClCompile Include="1654_랜선자르기_실.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

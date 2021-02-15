@@ -98,7 +98,7 @@ int main()
 		if (arr[i] != arr[i + 1]) {
 			dp_bitonic[i] = dp_ascending[i] + dp_descending[i + 1];
 		}
-		else {
+		else {6
 			dp_bitonic[i] = max(dp_ascending[i], dp_descending[i]);
 		}
 	}*/

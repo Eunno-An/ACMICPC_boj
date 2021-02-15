@@ -130,7 +130,10 @@
     <ClCompile Include="01타일_1904_실.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="11054_가장 긴 바이토닉 부분 수열_골.cpp" />
+    <ClCompile Include="11054_가장 긴 바이토닉 부분 수열_골.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="1654_랜선자르기_실.cpp" />
     <ClCompile Include="17829_풀링_실.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
