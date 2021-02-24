@@ -405,5 +405,11 @@
     <ClCompile Include="1072_게임_실.cpp">
       <Filter>소스 파일\이분탐색</Filter>
     </ClCompile>
+    <ClCompile Include="7453_합이 0인 네 정수_골.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="2343_기타 레슨_실.cpp">
+      <Filter>소스 파일\이분탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
