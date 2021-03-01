@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\이분탐색">
       <UniqueIdentifier>{d24e74f5-179a-42a5-95b7-72a44644183b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\문제집1">
+      <UniqueIdentifier>{766acb3c-de66-4eda-8bd8-145d0dabe2ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\이분탐색2">
+      <UniqueIdentifier>{d54bd3a9-77f2-46fb-975c-b71f253ebe45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="피보나치수2747.cpp">
@@ -416,6 +422,24 @@
     </ClCompile>
     <ClCompile Include="2467_용액_골.cpp">
       <Filter>소스 파일\이분탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="ATM.cpp">
+      <Filter>소스 파일\문제집1</Filter>
+    </ClCompile>
+    <ClCompile Include="동전0.cpp">
+      <Filter>소스 파일\문제집1</Filter>
+    </ClCompile>
+    <ClCompile Include="회의실 배정.cpp">
+      <Filter>소스 파일\문제집1</Filter>
+    </ClCompile>
+    <ClCompile Include="로프.cpp">
+      <Filter>소스 파일\문제집1</Filter>
+    </ClCompile>
+    <ClCompile Include="1939_중량제한_골.cpp">
+      <Filter>소스 파일\이분탐색2</Filter>
+    </ClCompile>
+    <ClCompile Include="12738_가장 긴 증가하는 부분수열 3_ 골.cpp">
+      <Filter>소스 파일\이분탐색2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
