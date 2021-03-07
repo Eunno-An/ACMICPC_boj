@@ -37,15 +37,14 @@ using namespace std;
 
 typedef long long int ll;
 typedef pair<int, int> pii;
-int N;
-int arr[100001];
+
+
 // 테스트 케이스 초기화 시
 void init()
 {
 
 }
 
-//16분 40초
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -53,34 +52,8 @@ int main()
 	cout.tie(0);
 
 	init();
-	cin >> N;
-	for (int i = 0; i < N; i++) {
-		cin >> arr[i];
-	}
-	sort(arr, arr + N);
-	int max = -1;
-	int weight = 0;
-	int count = 1;
-	for (int i = N - 1; i >= 0; i--) {
-		weight += arr[i];
-		if (max < arr[i] * count) {
-			max = arr[i] * count;
-		}
-		count++;
-	}
-	cout << max << '\n';
 
 
-	/*
-	2
-	10 15
-	-> 10 15를 사용하여 드는 방법, 15를 사용하여 드는 방법, 10을 사용하여 드는 방법
 
-	5
-	2 4 30 6 40
-	1. 꼭 min * N이 최대 중량이 아닐 수 있다.
-	2. 그렇다고 해서 max가 최대 중량이 아닐 수 있다.
-	3. 조합으로 할 경우 시간초과가 발생할 수 있다.
-	*/
 	return 0;
 }
