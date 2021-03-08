@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\이분탐색2">
       <UniqueIdentifier>{d54bd3a9-77f2-46fb-975c-b71f253ebe45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\스택">
+      <UniqueIdentifier>{0e350081-92fa-4cd6-9553-69f916301f53}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="피보나치수2747.cpp">
@@ -464,6 +467,12 @@
     </ClCompile>
     <ClCompile Include="2473_세 용액_골.cpp">
       <Filter>소스 파일\이분탐색2</Filter>
+    </ClCompile>
+    <ClCompile Include="1365_꼬인 전깃줄_골.cpp">
+      <Filter>소스 파일\이분탐색2</Filter>
+    </ClCompile>
+    <ClCompile Include="9935_문자열 폭발_골.cpp">
+      <Filter>소스 파일\스택</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

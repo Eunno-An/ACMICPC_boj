@@ -38,10 +38,8 @@ using namespace std;
 typedef long long int ll;
 typedef pair<int, int> pii;
 int N;
-ll arr[5001];
-vector<int> a;
-vector<int> b;
-vector<int> c;
+int arr[100001];
+int dp[100001];
 // 테스트 케이스 초기화 시
 void init()
 {
@@ -50,10 +48,6 @@ void init()
 
 int main()
 {
-	//3-sum 알고리즘
-	//2467 문제와 비슷함
-	//그러나 못풀었음. 이분탐색 할 필요도 없음.
-	//그냥 투포인터로 풀어도 되는 문제
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	cout.tie(0);
@@ -63,45 +57,17 @@ int main()
 	for (int i = 0; i < N; i++) {
 		cin >> arr[i];
 	}
-	sort(arr, arr + N);
-	int ans1, ans2, ans3;
-	if (arr[0] >= 0) {
-		ans1 = arr[0];
-		ans2 = arr[1];
-		ans3 = arr[2];
-	}
-	else if (arr[N - 1] <= 0) {
-		ans1 = arr[N - 3];
-		ans2 = arr[N - 2];
-		ans3 = arr[N - 1];
-	}
-	else {
-		ll mini = 3e10 + 7;
-		for (int i = 0; i < N - 1; i++) {
-			int j, k;
-			j = i + 1;
-			k = N - 1;
-			while (1) {
-				if (j >= k)
-					break;
-				ll x = arr[i] + arr[j] + arr[k];
-				ll nx = x < 0 ? -x : x;
-				if (mini > nx) {
-					mini = nx;
-					ans1 = arr[i];
-					ans2 = arr[j];
-					ans3 = arr[k];
-				}
-				if (x > 0) {
-					k--;
-				}
-				else {
-					j++;
-				}
-			}
+	dp[0] = arr[0];
+	int idx = 0;
+	for (int i = 1; i < N; i++) {
+		if (dp[idx] < arr[i]) {
+			dp[++idx] = arr[i];
+		}
+		else {
+			int idx1 = lower_bound(dp, dp + idx, arr[i]) - dp;
+			dp[idx1] = arr[i];
 		}
 	}
-	cout << ans1 << ' ' << ans2 << ' ' << ans3 << '\n';
+	cout << N - (idx + 1) << '\n';
 	return 0;
-	//https://zzudy.tistory.com/50
 }
