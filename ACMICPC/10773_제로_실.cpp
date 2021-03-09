@@ -37,13 +37,14 @@ using namespace std;
 
 typedef long long int ll;
 typedef pair<int, int> pii;
-
-
+int K;
+stack<int> s;
 // 테스트 케이스 초기화 시
 void init()
 {
 
 }
+
 int main()
 {
 	ios_base::sync_with_stdio(false);
@@ -51,42 +52,26 @@ int main()
 	cout.tie(0);
 
 	init();
-	string s, bomb;
-	cin >> s >> bomb;
-	stack<char> input_s;
-	stack<char> remain;
-	stack<char> gone;
-	for (int i = 0; i < s.size(); i++) {
-		input_s.push(s[i]);
-	}
-	while (!input_s.empty()) {
-		//input stack에서 하나씩 뺀다
-		char x = input_s.top(); input_s.pop();
-		remain.push(x);
-		if (remain.top() == bomb[0] && remain.size() >= bomb.size()) {
-			string temp = "";
-			for (int i = 0; i < bomb.size(); i++) {
-				if (bomb[i] == remain.top()) {
-					temp.push_back(bomb[i]);
-					remain.pop();
-				}
-			}
-			if (temp != bomb) {
-				for (int i = temp.size()-1; i >= 0; i--) {
-					remain.push(temp[i]);
-				}
+	cin >> K;
+	int input;
+	for (int i = 0; i < K; i++) {
+		cin >> input;
+		if (input == 0) {
+			if (!s.empty()) {
+				s.pop();
 			}
 		}
+		else {
+			s.push(input);
+		}
 	}
-	if (remain.empty()) {
-		cout << "FRULA\n";
-		return 0;
+	int sum = 0;
+	while (!s.empty()) {
+		sum += s.top();
+		s.pop();
 	}
-	while (!remain.empty()) {
-		cout << remain.top();
-		remain.pop();
-	}
+	cout << sum << '\n';
 
-	
+
 	return 0;
 }
