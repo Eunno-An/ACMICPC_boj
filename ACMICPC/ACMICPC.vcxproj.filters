@@ -480,5 +480,11 @@
     <ClCompile Include="10773_제로_실.cpp">
       <Filter>소스 파일\스택</Filter>
     </ClCompile>
+    <ClCompile Include="2493_탑_골.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
+    <ClCompile Include="5397_키로거_실.cpp">
+      <Filter>소스 파일\스택</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
